@@ -14,7 +14,10 @@
 <v t="amd.20150311165615.5"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20150311165615.6"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="amd.20150311165615.3"><vh>從 CherryPy 過渡到 Flask</vh></v>
+<v t="amd.20150311165615.3" a="E"><vh>從 CherryPy 過渡到 Flask</vh>
+<v t="amd.20150312004942.2"><vh>CherryPy 開講</vh></v>
+<v t="amd.20150312004942.3"><vh>Flask 開講</vh></v>
+</v>
 <v t="amd.20150311165615.9" a="E"><vh>@path ./</vh>
 <v t="amd.20150311165615.26"><vh>@edit setup.py</vh></v>
 <v t="amd.20150311165615.30"><vh>@edit wsgi.py</vh></v>
@@ -120,5 +123,12 @@ QLineEdit#editorLabel {
 <t tx="amd.20150311165615.6">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="amd.20150311165615.9"></t>
+<t tx="amd.20150312004942.2">以下連結說明 CherryPy 的各種近端用法
+
+http://blog.kmol.info/index763e.html?p=856
+
+希望在此將程式碼改為 flask based, 並且與 CherryPy 進行比較
+</t>
+<t tx="amd.20150312004942.3"></t>
 </tnodes>
 </leo_file>
