@@ -17,7 +17,9 @@
 <v t="amd.20150313083555.45"><vh>有關本專案</vh></v>
 <v t="amd.20150311165615.3" a="E"><vh>從 CherryPy 過渡到 Flask</vh>
 <v t="amd.20150312004942.2"><vh>CherryPy 開講</vh></v>
-<v t="amd.20150312004942.3"><vh>Flask 開講</vh></v>
+<v t="amd.20150312004942.3" a="E"><vh>Flask 開講</vh>
+<v t="amd.20150313083555.47"><vh>Flask 範例</vh></v>
+</v>
 <v t="amd.20150313083555.43" a="E"><vh>@path ./.git</vh>
 <v t="amd.20150313083555.44"><vh>@edit config</vh></v>
 </v>
@@ -150,5 +152,28 @@ PostgreSQL</t>
 在近端設定與 OpenShift 網站同步的指令:
 
 git remote add openshift ssh://550232f15973ca2f390001c0@flask-scrum1.rhcloud.com/~/git/flask.git/</t>
+<t tx="amd.20150313083555.47">blog
+
+https://github.com/mitsuhiko/flask/tree/master/examples/flaskr/
+
+blog on OpenShift
+
+https://github.com/shekhargulati/flaskr-openshift-quickstart (python 2.6)
+
+修改成 Python 3.3 版, 實現在 http://flaskr-scrum1.rhcloud.com/, 希望將這組程式整合到 http://flask-scrum1.rhcloud.com
+
+已經修改為 Python 3.3 相容的 flaskr 程式碼: https://github.com/coursemdetw/flaskr_on_openshift, 預計將先改為近端與 OpenShift 都能夠執行的版本
+
+推特
+
+https://github.com/mitsuhiko/flask/tree/master/examples/minitwit/
+
+靜態網頁網站
+
+https://github.com/mitsuhiko/flask-website
+
+打算要將 CMSimply 改為 Flask 與 CherryPy 兩個選用版本
+
+</t>
 </tnodes>
 </leo_file>
