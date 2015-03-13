@@ -14,9 +14,13 @@
 <v t="amd.20150311165615.5"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20150311165615.6"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
+<v t="amd.20150313083555.45"><vh>有關本專案</vh></v>
 <v t="amd.20150311165615.3" a="E"><vh>從 CherryPy 過渡到 Flask</vh>
 <v t="amd.20150312004942.2"><vh>CherryPy 開講</vh></v>
 <v t="amd.20150312004942.3"><vh>Flask 開講</vh></v>
+<v t="amd.20150313083555.43" a="E"><vh>@path ./.git</vh>
+<v t="amd.20150313083555.44"><vh>@edit config</vh></v>
+</v>
 </v>
 <v t="amd.20150311165615.9" a="E"><vh>@path ./</vh>
 <v t="amd.20150311165615.26"><vh>@edit setup.py</vh></v>
@@ -129,6 +133,22 @@ http://blog.kmol.info/index763e.html?p=856
 
 希望在此將程式碼改為 flask based, 並且與 CherryPy 進行比較
 </t>
-<t tx="amd.20150312004942.3"></t>
+<t tx="amd.20150312004942.3">目前希望使用的程式工具為:
+
+Python3
+
+Flask
+
+PostgreSQL</t>
+<t tx="amd.20150313083555.43"></t>
+<t tx="amd.20150313083555.45">從 .git/config 的設定可以得知
+
+本專案以 Github https://github.com/coursemdetw/flask_project.git 為主
+
+但是希望能夠透過 git remote add 設為與 http://flask-scrum1.rhcloud.com/ OpenShift 網站對應 (由 scrum1 At mde 管理維護)
+
+在近端設定與 OpenShift 網站同步的指令:
+
+git remote add openshift ssh://550232f15973ca2f390001c0@flask-scrum1.rhcloud.com/~/git/flask.git/</t>
 </tnodes>
 </leo_file>
