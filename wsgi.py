@@ -11,6 +11,6 @@ if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
     application = myflaskapp.app
 else:
     # 表示在近端執行
-    myflaskapp.app.run()
+    myflaskapp.app.run(debug=True)
     
 
